@@ -1,0 +1,38 @@
+pentru i<-1, n executa
+	i=i*5
+repeta
+	switch (t->type)
+		case 1:
+			a++
+		case2:
+			b++
+			c=a+b
+			break
+		case3:
+			d++
+			c=a-b
+			break
+		case4:
+			e++
+			daca a>7 atunci
+				a*=5
+			break
+		case5:
+			f++
+			break
+	pentru i<-1, n executa
+		suma=suma+1
+pana cand a>b
+instructiune
+daca a>c atunci
+	executa
+		i++
+		c=c*a
+	cat timp a>=c
+altfel
+	afiseaza c
+cat timp a>b executa
+	a++
+	b--
+	c=a+b
+	d=a*b*c

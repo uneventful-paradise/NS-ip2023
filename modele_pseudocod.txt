@@ -1,0 +1,129 @@
+//FOR COPY_PASTE //
+
+MODEL 1:
+
+pentru a<-1, n executa
+	daca x>=10 atunci
+		x--
+		s=s+x
+	altfel
+		cat timp s!=1 executa
+			s=s*2
+		repeta
+			a--
+		pana cand a<=10
+instructiune
+cat timp x!=0 executa
+	a=a*2
+
+MODEL 2:
+
+repeta
+	switch (t->type)
+		case 1:
+			a++
+		case2:
+			b++
+			c=a+b
+			break
+		case3:
+			d++
+			c=a-b
+			break
+		case4:
+			e++
+			daca a>7 atunci
+				a*=5
+			break
+		case5:
+			f++
+			break
+	pentru i<-1, n executa
+		suma=suma+1
+pana cand a>b
+instructiune
+daca a>c atunci
+	executa
+		i++
+		c=c*a
+	cat timp a>=c
+altfel
+	afiseaza c
+cat timp a>b executa
+	a++
+	b--
+	c=a+b
+
+MODEL 3:
+
+
+daca a == 120 atunci
+	printf a
+	pentru a<-1, n executa
+		x=x*3
+		x--
+	cat timp b!=a executa
+		c++
+	repeta
+		a*14
+	pana cand a<100
+altfel
+	daca a==15 atunci
+		switch (t->type)
+			case 1:
+				a++
+			case2:
+				b++
+				c=a+b
+				break
+			case3:
+				d++
+				c=a-b
+				break
+			case4:
+				e++
+				daca a>7 atunci
+					a*=5
+				break
+			case5:
+				f++
+				break
+		pentru i<-1, n executa
+			suma=suma+1
+	altfel
+		cat timp b!=a executa
+			printf a
+			a+=1
+			b-=2
+			c*=4
+			d=7
+			e=5
+		instr
+instructiune
+cat timp a>b executa
+	a++
+	b--
+	c=a+b
+	d=a*b*c
+
+MODEL 4:
+
+pentru i<-1, n executa
+	daca a[i]+b[i]==0 atunci
+		suma=-1
+	altfel
+		suma+=a[i]+b[i];
+	cat timp b!=0 executa
+		r=a%b
+		a=b;
+		b=r;
+daca suma>10 atunci
+	suma=suma%9
+altfel
+	suma=9
+executa
+	mij=n%2
+	st=mij-1
+	dr=mij+1
+cat timp n<100
+instructiune
